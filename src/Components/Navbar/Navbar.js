@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import styles from './Navbar.module.css'
 import 'animate.css'
 
@@ -7,14 +7,25 @@ import myPicture from '../../media/Pics/portfolio-photo.jpg'
 
 
 const Navbar = () => {
+
+    
+  const [isOpen, setIsOpen] = useState(false);
+
+  const handleCheckboxChange = () => {
+    setIsOpen(!isOpen);
+  };
+
+
+
     return (
         <div className={`animate__animated animate__bounceInDown animate__delay-0s ${styles.Navbar} `}>
+
 
             <div className={styles.logoContainer}>
                 <img className={styles.logo} src={logo} alt='logo'/>
             </div>
 
-            <ul className={styles.LinksContainer}>
+            <ul className={`${styles.LinksContainer} ${isOpen ? styles.open : ''}`}>
                 <li className={`${styles.Navlink} ${styles.portfolioPic}`}>
                     <img src={myPicture} alt='myPicture' className={styles.pic} />
                 </li>
@@ -30,6 +41,14 @@ const Navbar = () => {
                 <li className={`${styles.Navlink} ${styles.navRoute}`}><a href='/'>work</a></li>
                 <li className={`${styles.Navlink} ${styles.navRoute}`}><a href='/'>Certificates</a></li>
             </ul>
+
+            {/* hamburger */}
+            <label className={styles.burger} htmlFor="burger" >
+                <input id="burger" type="checkbox" onChange={handleCheckboxChange}/>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+            </label>
 
         </div>
     );
