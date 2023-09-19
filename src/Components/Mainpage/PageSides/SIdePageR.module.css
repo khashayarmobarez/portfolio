@@ -1,0 +1,44 @@
+.Container {
+    height: 16rem;
+    width: 3rem;
+}
+
+.email {
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.email:hover {
+    font-size: 16px;
+    color: aliceblue;
+}
+
+.line {
+    background-color: #8892B0;
+    height: 7rem;
+    width: 2px; 
+}
+
+@media screen and (max-width: 768px) {
+    
+    .Container {
+        width: 50%;
+        height: 2rem;
+        flex-direction: row;
+        left: 12%;
+        bottom: 6.5rem;
+    }
+
+    .line {
+        display: none;
+    }
+
+    .email {
+        font-size: 18px;
+    }
+
+    .email:hover {
+        font-size: 20px;
+    }
+
+}

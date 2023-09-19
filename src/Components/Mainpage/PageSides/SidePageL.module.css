@@ -1,0 +1,55 @@
+.Container {
+    width: 4rem;
+    height:22rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.socialContainer {
+    height: 12rem;
+}
+
+.line {
+    background-color: #8892B0;
+    height: 8rem;
+    width: 2px;
+}
+
+.SocialLogo {
+    cursor: pointer;
+    transition: 0.5s;
+    border-radius: 5px;
+    padding: 2px;
+}
+
+.SocialLogo:hover {
+    rotate: 20deg;
+    box-shadow: 0 2px 4px rgba(236, 203, 203, 0.7);
+}
+
+@media screen and (max-width: 768px) {
+    
+    .Container {
+        height: 3rem;
+        width: 50%;
+        justify-content: center;
+        align-self: center;
+        bottom: 0;
+        padding: 0 0 4.5rem 0;
+        flex-direction: row;
+        margin-left: 25%;
+    }
+
+    .SocialLogo {
+        width: 43px;
+        height: 43px;
+    }
+
+    .socialContainer {
+        flex-direction: row;
+    }
+
+    .line {
+        display: none;
+    }
+}
