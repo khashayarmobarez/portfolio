@@ -30,12 +30,10 @@ const Navbar = () => {
                     <img src={myPicture} alt='myPicture' className={styles.pic} />
                 </li>
                 <li className={`${styles.Navlink} ${styles.fancy}`}>
-                    <a href='/'>
                         <span className={styles.topKey}></span>
                         <span className={styles.text}><a href='/'>Resume</a></span>
                         <span className={styles.bottomKey1}></span>
                         <span className={styles.bottomKey2}></span>
-                    </a>
                 </li>
                 <li className={`${styles.Navlink} ${styles.navRoute}`}><a href='/'>About</a></li>
                 <li className={`${styles.Navlink} ${styles.navRoute}`}><a href='/'>Work</a></li>

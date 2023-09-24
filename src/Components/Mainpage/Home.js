@@ -1,13 +1,18 @@
 import React from 'react';
-import styles from './Home.module.css'
+
+// Components 
 import SidePageL from './PageSides/SidePageL';
 import SidePageR from './PageSides/SidePageR';
+import Intro from './Intro.js';
+import About from './About';
 
 const Home = () => {
     return (
-        <div className={styles.container}>
-            <SidePageL />
+        <div id='Container' className=''>
+            <Intro />
+            <About />
             <SidePageR />
+            <SidePageL />
         </div>
     );
 };

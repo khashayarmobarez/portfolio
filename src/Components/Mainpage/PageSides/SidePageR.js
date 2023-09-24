@@ -1,5 +1,6 @@
 import React from 'react';
 import styles from './SIdePageR.module.css'
+// import { Link } from 'react-router-dom';
 
 const SidePageR = () => {
     return (
