@@ -6,6 +6,7 @@ import SidePageR from './PageSides/SidePageR';
 import Intro from './Intro.js';
 import About from './About';
 import Work from './Work';
+import Contact from './Contact';
 
 const Home = () => {
     return (
@@ -13,6 +14,7 @@ const Home = () => {
             <Intro />
             <About />
             <Work />
+            <Contact />
             <SidePageR />
             <SidePageL />
         </div>
