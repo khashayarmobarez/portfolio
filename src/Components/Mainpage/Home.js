@@ -7,6 +7,8 @@ import Intro from './Intro.js';
 import About from './About';
 import Work from './Work';
 import Contact from './Contact';
+import Classes from './Classes';
+import Certificates from './Certificates';
 
 const Home = () => {
     return (
@@ -15,6 +17,8 @@ const Home = () => {
             <About />
             <Work />
             <Contact />
+            <Classes />
+            <Certificates />
             <SidePageR />
             <SidePageL />
         </div>
