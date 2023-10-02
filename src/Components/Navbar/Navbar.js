@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import styles from './Navbar.module.css'
+import { Link } from 'react-scroll';
 import 'animate.css'
 
 import logo from '../../media/SVG/K-logo.svg'
@@ -35,10 +36,12 @@ const Navbar = () => {
                         <span className={styles.bottomKey1}></span>
                         <span className={styles.bottomKey2}></span>
                 </li>
-                <li className={`${styles.Navlink} ${styles.navRoute}`}><a href='/'>About</a></li>
-                <li className={`${styles.Navlink} ${styles.navRoute}`}><a href='/'>Work</a></li>
-                <li className={`${styles.Navlink} ${styles.navRoute}`}><a href='/'>Certificates</a></li>
-                <li className={`${styles.Navlink} ${styles.navRoute}`}><a href='/'>Classes</a></li>
+                
+                <li className={`${styles.Navlink} ${styles.navRoute}`}><Link to="About" smooth={true} duration={700}>About</Link></li>
+                <li className={`${styles.Navlink} ${styles.navRoute}`}><Link to="Work" smooth={true} duration={1000}>Work</Link></li>
+                <li className={`${styles.Navlink} ${styles.navRoute}`}><Link to="Contact" smooth={true} duration={1300}>Contact</Link></li>
+                <li className={`${styles.Navlink} ${styles.navRoute}`}><Link to="Classes" smooth={true} duration={1600}>Classes</Link></li>
+                <li className={`${styles.Navlink} ${styles.navRoute}`}><Link to="Certificates" smooth={true} duration={1900}>Certificates</Link></li>
             </ul>
 
             {/* hamburger */}

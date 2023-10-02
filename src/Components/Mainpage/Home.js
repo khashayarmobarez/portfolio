@@ -1,4 +1,5 @@
 import React from 'react';
+import { Element } from 'react-scroll';
 
 // Components 
 import SidePageL from './PageSides/SidePageL';
@@ -14,11 +15,13 @@ const Home = () => {
     return (
         <div id='Container' className=''>
             <Intro />
-            <About />
-            <Work />
-            <Contact />
-            <Classes />
-            <Certificates />
+
+            <Element name="About"><About /></Element>
+            <Element name="Work"><Work /></Element>
+            <Element name="Contact"><Contact /></Element>
+            <Element name="Classes"><Classes /></Element>
+            <Element name="Certificates"><Certificates /></Element>
+
             <SidePageR />
             <SidePageL />
         </div>
