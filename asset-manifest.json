@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.66971406.css",
+    "main.js": "/portfolio/static/js/main.b842c72b.js",
+    "static/media/drbabakzandi-website.png": "/portfolio/static/media/drbabakzandi-website.38c1bd058fea7bffdba4.png",
+    "static/media/www.freecodecamp.org_certification_khashayar-mobarez_js algorithms.png": "/portfolio/static/media/www.freecodecamp.org_certification_khashayar-mobarez_js algorithms.9ce5159f7bbd917e96ea.png",
+    "static/media/www.freecodecamp.org_certification_khashayar-mobarez_responsive-web-design.png": "/portfolio/static/media/www.freecodecamp.org_certification_khashayar-mobarez_responsive-web-design.cb3cdfbeedb0702c9f0a.png",
+    "static/media/portfolio-photo.jpg": "/portfolio/static/media/portfolio-photo.e86f1cf425149d233dd9.jpg",
+    "static/media/Discord.svg": "/portfolio/static/media/Discord.94713abc2da0bcb901eb1e24b83b503f.svg",
+    "static/media/Instagram.svg": "/portfolio/static/media/Instagram.6a6ad507f5f4339e37fc5b35941ff324.svg",
+    "static/media/LinkedIn.svg": "/portfolio/static/media/LinkedIn.ddd029b004ab0673cc4e4a27216e56ea.svg",
+    "index.html": "/portfolio/index.html",
+    "static/media/X.svg": "/portfolio/static/media/X.f79f200777f17bc1c7375d7fbd6ac005.svg",
+    "static/media/K-logo.svg": "/portfolio/static/media/K-logo.169b825bec014155b52f529b4bfa2dcc.svg",
+    "static/media/triangle.svg": "/portfolio/static/media/triangle.06eb79504db1d785e42d89d36035c01a.svg",
+    "main.66971406.css.map": "/portfolio/static/css/main.66971406.css.map",
+    "main.b842c72b.js.map": "/portfolio/static/js/main.b842c72b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.66971406.css",
+    "static/js/main.b842c72b.js"
+  ]
+}
