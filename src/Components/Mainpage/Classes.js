@@ -6,7 +6,7 @@ const Classes = () => {
         <div className='w-full flex flex-col justify-center items-center mt-40 text-[#64FFDA]' >
             <h1 className='text-center text-3xl w-2/3'>courses and classes planings will be introduced soon!</h1>
 
-            {/* Animation monalisa  */}
+            {/* Animation loading and monalisa */}
             <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg" class={styles.loader}>
                 <path pathLength="360" d="M 56.3752 2 H 7.6248 C 7.2797 2 6.9999 2.268 6.9999 2.5985 V 61.4015 C 6.9999 61.7321 7.2797 62 7.6248 62 H 56.3752 C 56.7203 62 57.0001 61.7321 57.0001 61.4015 V 2.5985 C 57.0001 2.268 56.7203 2 56.3752 2 Z"></path>
                 <path pathLength="360" d="M 55.7503 60.803 H 8.2497 V 3.1971 H 55.7503 V 60.803 Z"></path>
@@ -25,6 +25,21 @@ const Classes = () => {
                 <path pathLength="360" d="M 30.2223 21.2875 C 30.5674 21.2875 30.8471 21.0195 30.8471 20.6889 V 18.92 L 31.9916 18.9675 C 32.3376 18.9833 32.628 18.7259 32.643 18.3956 C 32.658 18.0654 32.3907 17.786 32.0459 17.7717 L 30.2495 17.6969 C 30.077 17.6889 29.9133 17.7497 29.7902 17.8624 C 29.6671 17.9753 29.5976 18.1315 29.5976 18.2948 V 20.6889 C 29.5974 21.0195 29.8772 21.2875 30.2223 21.2875 Z"></path>
             </svg>
 
+            <div className={styles.loaderLogo}>
+                <svg className={styles.logo} xmlns="http://www.w3.org/2000/svg" width="60" height="70" viewBox="0 0 55 63">
+                     <path d="M21.0977 11.4266C21.0977 3.6332 16.4427 0 10.5846 0C3.7526 0 0 5.01992 0 11.2879V50.532C0 57.0912 3.6237 62.0973 10.7279 62.0973C16.4284 62.0973 21.0977 58.5473 21.0977 50.532V39.9236L37.1536 59.102C40.4049 62.8738 47.4805 63.3592 51.9349 59.102C55.8021 55.2746 55.8451 49.7555 52.9948 46.3164L39.9896 30.3969L50.7174 15.5035C53.2096 12.0783 53.224 6.75332 49.2279 3.05078C44.888 -0.970703 37.4258 -1.33125 32.957 4.82578L21.0977 21.2168V11.4266Z" fill="none" stroke="white" strokeWidth='2px'/>
+                </svg>
+
+            </div>
+            
+            <div className={styles.wrapper}>
+                <div className={styles.circle}></div>
+                <div className={styles.circle}></div>
+                <div className={styles.circle}></div>
+                <div className={styles.shadow}></div>
+                <div className={styles.shadow}></div>
+                <div className={styles.shadow}></div>
+            </div>
 
         </div>
     );
