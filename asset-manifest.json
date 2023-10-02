@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.66971406.css",
-    "main.js": "/portfolio/static/js/main.b842c72b.js",
+    "main.css": "/portfolio/static/css/main.30ddd7aa.css",
+    "main.js": "/portfolio/static/js/main.a6257aa1.js",
     "static/media/drbabakzandi-website.png": "/portfolio/static/media/drbabakzandi-website.38c1bd058fea7bffdba4.png",
     "static/media/www.freecodecamp.org_certification_khashayar-mobarez_js algorithms.png": "/portfolio/static/media/www.freecodecamp.org_certification_khashayar-mobarez_js algorithms.9ce5159f7bbd917e96ea.png",
     "static/media/www.freecodecamp.org_certification_khashayar-mobarez_responsive-web-design.png": "/portfolio/static/media/www.freecodecamp.org_certification_khashayar-mobarez_responsive-web-design.cb3cdfbeedb0702c9f0a.png",
@@ -13,11 +13,11 @@
     "static/media/X.svg": "/portfolio/static/media/X.f79f200777f17bc1c7375d7fbd6ac005.svg",
     "static/media/K-logo.svg": "/portfolio/static/media/K-logo.169b825bec014155b52f529b4bfa2dcc.svg",
     "static/media/triangle.svg": "/portfolio/static/media/triangle.06eb79504db1d785e42d89d36035c01a.svg",
-    "main.66971406.css.map": "/portfolio/static/css/main.66971406.css.map",
-    "main.b842c72b.js.map": "/portfolio/static/js/main.b842c72b.js.map"
+    "main.30ddd7aa.css.map": "/portfolio/static/css/main.30ddd7aa.css.map",
+    "main.a6257aa1.js.map": "/portfolio/static/js/main.a6257aa1.js.map"
   },
   "entrypoints": [
-    "static/css/main.66971406.css",
-    "static/js/main.b842c72b.js"
+    "static/css/main.30ddd7aa.css",
+    "static/js/main.a6257aa1.js"
   ]
 }
