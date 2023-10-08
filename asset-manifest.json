@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.30ddd7aa.css",
-    "main.js": "/portfolio/static/js/main.a6257aa1.js",
+    "main.css": "/portfolio/static/css/main.ebff5ce3.css",
+    "main.js": "/portfolio/static/js/main.87f5364a.js",
     "static/media/drbabakzandi-website.png": "/portfolio/static/media/drbabakzandi-website.38c1bd058fea7bffdba4.png",
-    "static/media/www.freecodecamp.org_certification_khashayar-mobarez_js algorithms.png": "/portfolio/static/media/www.freecodecamp.org_certification_khashayar-mobarez_js algorithms.9ce5159f7bbd917e96ea.png",
-    "static/media/www.freecodecamp.org_certification_khashayar-mobarez_responsive-web-design.png": "/portfolio/static/media/www.freecodecamp.org_certification_khashayar-mobarez_responsive-web-design.cb3cdfbeedb0702c9f0a.png",
+    "static/media/www.freecodecamp.org_certification_khashayar-mobarez_js_algorithms.png": "/portfolio/static/media/www.freecodecamp.org_certification_khashayar-mobarez_js_algorithms.9ce5159f7bbd917e96ea.png",
+    "static/media/freecodecamp.org_certification_khashayar-mobarez_responsive-web-design.png": "/portfolio/static/media/freecodecamp.org_certification_khashayar-mobarez_responsive-web-design.cb3cdfbeedb0702c9f0a.png",
     "static/media/portfolio-photo.jpg": "/portfolio/static/media/portfolio-photo.e86f1cf425149d233dd9.jpg",
     "static/media/Discord.svg": "/portfolio/static/media/Discord.94713abc2da0bcb901eb1e24b83b503f.svg",
     "static/media/Instagram.svg": "/portfolio/static/media/Instagram.6a6ad507f5f4339e37fc5b35941ff324.svg",
@@ -13,11 +13,11 @@
     "static/media/X.svg": "/portfolio/static/media/X.f79f200777f17bc1c7375d7fbd6ac005.svg",
     "static/media/K-logo.svg": "/portfolio/static/media/K-logo.169b825bec014155b52f529b4bfa2dcc.svg",
     "static/media/triangle.svg": "/portfolio/static/media/triangle.06eb79504db1d785e42d89d36035c01a.svg",
-    "main.30ddd7aa.css.map": "/portfolio/static/css/main.30ddd7aa.css.map",
-    "main.a6257aa1.js.map": "/portfolio/static/js/main.a6257aa1.js.map"
+    "main.ebff5ce3.css.map": "/portfolio/static/css/main.ebff5ce3.css.map",
+    "main.87f5364a.js.map": "/portfolio/static/js/main.87f5364a.js.map"
   },
   "entrypoints": [
-    "static/css/main.30ddd7aa.css",
-    "static/js/main.a6257aa1.js"
+    "static/css/main.ebff5ce3.css",
+    "static/js/main.87f5364a.js"
   ]
 }
