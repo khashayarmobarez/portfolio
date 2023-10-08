@@ -13,14 +13,14 @@ import Certificates from './Certificates';
 
 const Home = () => {
     return (
-        <div id='Container' className=''>
+        <div id='Container'>
             <Intro />
 
             <Element name="About"><About /></Element>
             <Element name="Work"><Work /></Element>
+            <Element name="Certificates"><Certificates /></Element>
             <Element name="Contact"><Contact /></Element>
             <Element name="Classes"><Classes /></Element>
-            <Element name="Certificates"><Certificates /></Element>
 
             <SidePageR />
             <SidePageL />

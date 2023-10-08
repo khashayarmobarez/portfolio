@@ -1,5 +1,6 @@
 import React from 'react';
 import styles from './Intro.module.css'
+import { Link } from 'react-scroll';
 
 
 const Intro = () => {
@@ -19,7 +20,9 @@ const Intro = () => {
                 <h1 className=' text-5xl md:text-7xl text-center md:text-start font-bold text-[#CCD6F6] ' >Khashayar Mobarez.</h1>
                 <h2 className=' text-3xl md:text-5xl mt-2 text-center md:text-start font-semibold' >I create web-based applications and products.</h2>
                 <h3 className=' md:text-2xl text-lg text-center mt-4 md:text-start' > i like to craft solid and scalable Web products with great user experiences.</h3>
-                <button className={` mt-10 ${styles.button_top}`}>applying for a project</button>
+
+                <button className={` mt-10 ${styles.button_top}` }><Link to="Contact" smooth={true} duration={1000}>applying for a project</Link></button>
+
                 <div className={`mt-[16vh] md:mt-[20vh] md:ml-[47%] ${styles.scrolldown}`} onClick={scrollWin} >
                     <div className={styles.chevrons}>
                         <div className={styles.chevrondown}></div>
