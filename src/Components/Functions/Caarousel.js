@@ -48,9 +48,9 @@ const Caarousel = ({slides}) => {
                 <span></span>
             </div>
 
-            <div className='w-3/5 md:w-1/2 h-auto flex flex-col justify-center items-center'>
-                <img className={`w-full rounded mb-4 transition-opacity duration-1000 ${transitioning ? 'opacity-0' : 'opacity-100'}`}  src={slides[currentIndex].pic} alt='certificate'></img>
-                <h1 className='text-center text-base'>{slides[currentIndex].name}</h1>
+            <div className='w-3/5 md:w-1/2 h-auto flex flex-col justify-center items-center' >
+                <img  className={`w-full rounded mb-4 transition-opacity duration-1000 ${transitioning ? 'opacity-0' : 'opacity-100'}`}  src={slides[currentIndex].pic} alt='certificate'></img>
+                <a href={slides[currentIndex].url} className='text-center text-base md:text-xl hover:underline underline-offset-8'>{slides[currentIndex].name}</a>
             </div>
             
             <div className={styles.arrow} style={{ transform: 'rotate(-90deg)' }} onClick={NextSlide} >

@@ -2,7 +2,7 @@ import React from 'react';
 
 const Contact = () => {
     return (
-        <div className='flex flex-col justify-center items-center mt-[4rem] md:mt-[16rem] w-full'>
+        <div className='flex flex-col justify-center items-center mt-[4rem] md:mt-[8rem] w-full'>
             
             <h1 className=' text-[#64FFDA] font-semibold text-xl md:text-3xl'>get in touch!</h1>
             <p className='text-center w-4/5 md:w-2/3 mt-4' >I can help you with any questions or issues related to the website development or malfunctionings and any tech problems you may have. I have extensive experience and knowledge in technology and I’m happy to share it with you.</p>

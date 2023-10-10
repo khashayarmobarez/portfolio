@@ -16,7 +16,8 @@ body {
   font-size: 20px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #0A192F;
+  background-color: #071222;
+  /* second option for background #0A192F  */
   color: #A8B2D1;
 }
 

@@ -21,7 +21,7 @@ const Work = () => {
 
                     {/* texts container  */}
                     <div id='descriptions-container' className=' z-10 w-[16rem] h-[320px] flex flex-col items-center justify-around -mt-[21rem] md:mt-0 md:w-1/3 md:items-end md:justify-center'>
-                        <h1 className=' text-2xl font-bold'>Dr.Zandi Website</h1>
+                        <a href='www.drbabakzandi.com' className=' text-2xl font-bold hover:underline underline-offset-4'>Dr.Zandi Website</a>
                         <p id='' className='text-center text-lg md:bg-[#112240] md:p-2 md:h-auto md:w-[140%] md:text-start rounded-lg md:-mr-[10%]'>Designed a user-friendly website for a doctor, enabling patients to easily 
                         <span className=' font-semibold text-lg text-[#64FFDA]' > schedule appointments</span>. Incorporated a library of 
                         <span className=' font-semibold text-lg text-[#64FFDA]' > educational videos</span> and 

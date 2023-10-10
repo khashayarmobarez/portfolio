@@ -7,6 +7,12 @@
     top: 0;
     padding: 0 5%;
     height: 100px;
+    transition-property: all;
+    transition-duration: 600ms;
+}
+
+.scrollingDown {
+    margin-top: -10rem;
 }
 
 .logoContainer {
@@ -133,7 +139,7 @@
     top: -2px;
     left: 0.625rem;
     position: absolute;
-    background: #0A192F;
+    background: #071222;
     transition: width 0.5s ease-out, left 0.3s ease-out;
    }
    
@@ -143,7 +149,7 @@
     right: 1.875rem;
     bottom: -2px;
     position: absolute;
-    background: #0A192F;
+    background: #071222;
     transition: width 0.5s ease-out, right 0.3s ease-out;
    }
    
@@ -153,13 +159,13 @@
     right: 0.625rem;
     bottom: -2px;
     position: absolute;
-    background: #0A192F;
+    background: #071222;
     transition: width 0.5s ease-out, right 0.3s ease-out;
    }
    
    .fancy:hover {
     color: white;
-    background: #112240;
+    background: none ;
    }
    
    .fancy:hover::before {

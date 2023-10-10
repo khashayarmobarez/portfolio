@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import styles from './Navbar.module.css'
 import { Link } from 'react-scroll';
 import 'animate.css'
@@ -11,15 +11,41 @@ const Navbar = () => {
 
     
   const [isOpen, setIsOpen] = useState(false);
+  const [scrollDirection, setScrollDirection] = useState('scrollingUp');
 
   const handleCheckboxChange = () => {
     setIsOpen(!isOpen);
   };
 
+  const closeNav = () => {
+    document.getElementById('burger').click();
+  }
+
+    // for scrollin effects
+    useEffect(() => {
+        let lastScrollTop = 0;
+
+        const handleScroll = () => {
+            let st = window.scrollY || document.documentElement.scrollTop;
+            if (st > lastScrollTop) {
+                setScrollDirection('scrollingDown');
+            } else {
+                setScrollDirection('scrollingUp');
+            }
+            lastScrollTop = st <= 0 ? 0 : st;
+        };
+
+        window.addEventListener('scroll', handleScroll);
+        return () => {
+            window.removeEventListener('scroll', handleScroll);
+        };
+    }, []);
+
+
 
 
     return (
-        <div className={`animate__animated animate__bounceInDown animate__delay-0s  ${styles.Navbar} `}>
+        <div className={`animate__animated animate__bounceInDown animate__delay-0s  ${styles.Navbar} ${styles[scrollDirection]} `}>
 
 
             <div className={styles.logoContainer}>
@@ -37,11 +63,11 @@ const Navbar = () => {
                         <span className={styles.bottomKey2}></span>
                 </li>
                 
-                <li className={`${styles.Navlink} ${styles.navRoute}`}><Link to="About" smooth={true} duration={700}>About</Link></li>
-                <li className={`${styles.Navlink} ${styles.navRoute}`}><Link to="Work" smooth={true} duration={1000}>Work</Link></li>
-                <li className={`${styles.Navlink} ${styles.navRoute}`}><Link to="Contact" smooth={true} duration={1300}>Contact</Link></li>
-                <li className={`${styles.Navlink} ${styles.navRoute}`}><Link to="Classes" smooth={true} duration={1600}>Classes</Link></li>
-                <li className={`${styles.Navlink} ${styles.navRoute}`}><Link to="Certificates" smooth={true} duration={1900}>Certificates</Link></li>
+                <li className={`${styles.Navlink} ${styles.navRoute}`}><Link to="About" smooth={true} duration={700} onClick={closeNav}>About</Link></li>
+                <li className={`${styles.Navlink} ${styles.navRoute}`}><Link to="Work" smooth={true} duration={1000} onClick={closeNav}>Work</Link></li>
+                <li className={`${styles.Navlink} ${styles.navRoute}`}><Link to="Contact" smooth={true} duration={1300} onClick={closeNav}>Contact</Link></li>
+                <li className={`${styles.Navlink} ${styles.navRoute}`}><Link to="Classes" smooth={true} duration={1600} onClick={closeNav}>Classes</Link></li>
+                <li className={`${styles.Navlink} ${styles.navRoute}`}><Link to="Certificates" smooth={true} duration={1900} onClick={closeNav}>Certificates</Link></li>
             </ul>
 
             {/* hamburger */}
