@@ -1,6 +1,7 @@
 import React from 'react';
 import styles from './SidePageL.module.css';
 import { Link } from 'react-router-dom';
+import 'animate.css'
 
 // SVGs
 import X from '../../../media/SVG/SocialLogos/X.svg';
@@ -11,7 +12,7 @@ import linkedin from '../../../media/SVG/SocialLogos/LinkedIn.svg';
 const SidePageL = () => {
     
     return (
-        <div className={`fixed flex flex-col bottom-0 ml-8 ${styles.Container}`}>
+        <div className={`fixed flex flex-col bottom-0 ml-8 ${styles.Container} animate__animated animate__delay-0.7s animate__flipInX`}>
 
             <div className={`flex flex-col justify-between items-center ${styles.socialContainer}`}>
                 <a href='https://www.linkedin.com/in/khashayarmobarez/' target="_blank" rel="noopener noreferrer" ><img className={styles.SocialLogo} alt='social logo' src={linkedin} /> </a>

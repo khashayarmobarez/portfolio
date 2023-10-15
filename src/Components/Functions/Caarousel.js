@@ -46,7 +46,7 @@ const Caarousel = ({slides}) => {
                 <span></span>
                 <span></span>
                 <span></span>
-            </div>
+            </div>3
 
             <div className='w-3/5 md:w-1/2 h-auto flex flex-col justify-center items-center' >
                 <img  className={`w-full rounded mb-4 transition-opacity duration-1000 ${transitioning ? 'opacity-0' : 'opacity-100'}`}  src={slides[currentIndex].pic} alt='certificate'></img>

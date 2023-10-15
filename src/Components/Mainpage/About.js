@@ -1,10 +1,12 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 
 import triangle from '../../media/SVG/triangle.svg'
 import myPic from '../../media/Pics/portfolio-photo.jpg'
 
 
 const About = () => {
+    
+
     return (
         <div className='w-full flex flex-col mt-[14vh] relative'>
 

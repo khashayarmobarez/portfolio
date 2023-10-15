@@ -131,3 +131,12 @@
       opacity: 0;
     }
   }
+
+
+
+  /* scroll animation  */
+  .hidden {
+    opacity: 0;
+    transform: translateY(20px); /* Optionally, you can add a slide-in effect */
+    transition: opacity 0.5s, transform 0.5s;
+  }
