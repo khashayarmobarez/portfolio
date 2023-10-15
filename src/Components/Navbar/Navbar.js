@@ -57,10 +57,12 @@ const Navbar = () => {
                     <img src={myPicture} alt='myPicture' className={styles.pic} />
                 </li>
                 <li className={`${styles.Navlink} ${styles.fancy}`}>
+                    <a href='https://drive.google.com/file/d/1iz4nXSlHdlQWgUSJPawJy_71_Qi7Qr3K/view?usp=sharing' rel='noreferrer' target="_blank">
                         <span className={styles.topKey}></span>
-                        <span className={styles.text}><a href='/'>Resume</a></span>
+                        <span className={styles.text}>Resume</span>
                         <span className={styles.bottomKey1}></span>
                         <span className={styles.bottomKey2}></span>
+                    </a>
                 </li>
                 
                 <li className={`${styles.Navlink} ${styles.navRoute}`}><Link to="About" smooth={true} duration={700} onClick={closeNav}>About</Link></li>
