@@ -1,10 +1,10 @@
 import React from 'react';
-import styles from './Classes.module.css'
+import styles from './Articles.module.css'
 
-const Classes = () => {
+const Articles = () => {
     return (
         <div className='w-full flex flex-col justify-center items-center mt-40 text-[#64FFDA]' >
-            <h1 className='text-center text-3xl w-2/3'>courses and classes planings will be introduced soon!</h1>
+            <h1 className='text-center text-3xl w-2/3'>Articles will be added soon!</h1>
 
             {/* Animation loading and monalisa */}
             <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg" class={styles.loader}>
@@ -29,4 +29,4 @@ const Classes = () => {
     );
 };
 
-export default Classes;
+export default Articles;

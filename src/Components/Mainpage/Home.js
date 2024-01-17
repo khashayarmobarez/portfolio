@@ -8,7 +8,7 @@ import Intro from './Intro.js';
 import About from './About';
 import Work from './Work';
 import Contact from './Contact';
-import Classes from './Classes';
+import Articles from './Articles.js';
 import Certificates from './Certificates';
 
 const Home = () => {
@@ -20,7 +20,7 @@ const Home = () => {
             <Element name="Work"><Work /></Element>
             <Element name="Certificates"><Certificates /></Element>
             <Element name="Contact"><Contact /></Element>
-            <Element name="Classes"><Classes /></Element>
+            <Element name="Articles"><Articles /></Element>
 
             <SidePageR />
             <SidePageL />

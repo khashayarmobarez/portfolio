@@ -67,9 +67,9 @@ const Navbar = () => {
                 
                 <li className={`${styles.Navlink} ${styles.navRoute}`}><Link to="About" smooth={true} duration={700} onClick={closeNav}>About</Link></li>
                 <li className={`${styles.Navlink} ${styles.navRoute}`}><Link to="Work" smooth={true} duration={1000} onClick={closeNav}>Work</Link></li>
-                <li className={`${styles.Navlink} ${styles.navRoute}`}><Link to="Contact" smooth={true} duration={1300} onClick={closeNav}>Contact</Link></li>
-                <li className={`${styles.Navlink} ${styles.navRoute}`}><Link to="Classes" smooth={true} duration={1600} onClick={closeNav}>Classes</Link></li>
                 <li className={`${styles.Navlink} ${styles.navRoute}`}><Link to="Certificates" smooth={true} duration={1900} onClick={closeNav}>Certificates</Link></li>
+                <li className={`${styles.Navlink} ${styles.navRoute}`}><Link to="Contact" smooth={true} duration={1300} onClick={closeNav}>Contact</Link></li>
+                <li className={`${styles.Navlink} ${styles.navRoute}`}><Link to="Articles" smooth={true} duration={1600} onClick={closeNav}>Articles</Link></li>
             </ul>
 
             {/* hamburger */}

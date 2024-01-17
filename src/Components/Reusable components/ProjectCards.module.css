@@ -1,0 +1,30 @@
+.card {
+    width: 190px;
+    height: 254px;
+    background-image: linear-gradient(163deg, #cce0d5 0%, #b0a7d2 100%);
+    border-radius: 20px;
+    transition: all .3s;
+   }
+   
+   .card2 {
+    width: 190px;
+    height: 254px;
+    background: rgb(48,43,129);
+background: linear-gradient(90deg, rgba(48,43,129,1) 16%, rgba(16,16,66,1) 100%, rgba(118,232,255,1) 100%);
+    border-radius:15px;
+    transition: all .2s;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 5px ;
+   }
+   
+   .card2:hover {
+    transform: scale(0.98);
+    border-radius: 20px;
+   }
+   
+   .card:hover {
+    box-shadow: 0px 0px 30px 1px rgba(0, 255, 117, 0.30);
+   }

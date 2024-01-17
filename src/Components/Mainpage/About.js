@@ -51,14 +51,26 @@ const About = () => {
                             </div>
                             <div className='flex justify-start items-center w-32 mb-4 ml-2'>
                                 <img src={triangle} alt='traingle'/>
-                                <p className=' text-sm ml-1'>Next Js</p>
+                                <p className=' text-sm ml-1'>graphQL</p>
+                            </div>
+                            <div className='flex justify-start items-center w-32 mb-4 ml-2'>
+                                <img src={triangle} alt='traingle'/>
+                                <p className=' text-sm ml-1'>Material UI</p>
+                            </div>
+                            <div className='flex justify-start items-center w-32 mb-4 ml-2'>
+                                <img src={triangle} alt='traingle'/>
+                                <p className=' text-sm ml-1'>React Query</p>
+                            </div>
+                            <div className='flex justify-start items-center w-32 mb-4 ml-2'>
+                                <img src={triangle} alt='traingle'/>
+                                <p className=' text-sm ml-1'>Learning Next Js...</p>
                             </div>
                             
                         </div>
 
                     </div>
 
-                    <div id='picture' className=' w-64 h-[280px] mt-12 mb-8 md:w-80 md:mt-[-4rem] self-center'>
+                    <div id='picture' className=' w-64 h-[280px] mt-20 mb-6 md:w-80 md:mt-[-4rem] self-center'>
                         <img src={myPic} alt='my-pic' className=' w-11/12 h-[260px] md:h-[300px] md:w-[280px] rounded-lg transition-all hover:mt-[-5px] hover:mb-2 hover:ml-[-5px]' />
                         <div id='picBorder' className='w-10/12 h-[260px] md:h-[300px] -mt-[14.7rem] mr-[3px] md:-mt-[17.5rem] md:mr-6 border-solid border-2 border-y-white float-right rounded-lg' ></div>
                     </div>
