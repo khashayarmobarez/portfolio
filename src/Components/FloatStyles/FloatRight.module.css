@@ -1,6 +1,6 @@
 /* component floating in animation  */
 .floatingComponent {
-    transition: transform 0.8s ease-out,opacity 1.5s ease-in;
+    transition: transform 0.7s ease-out,opacity 1.5s ease-in;
     left:100vw;
     opacity: 0;
   }
