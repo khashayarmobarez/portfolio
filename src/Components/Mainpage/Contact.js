@@ -1,8 +1,37 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
+import stylesFloat from '../FloatStyles/FloatLeft.module.css'
 
 const Contact = () => {
+
+    // to handle floating in 
+    const [isFloating, setIsFloating] = useState(false)
+
+    const handleScroll = () => {
+        const scrollTop = window.scrollY;
+        let shouldFloat = false;
+    
+        if (window.innerWidth >= 768) {
+          // For devices with width more than 768px
+          shouldFloat = scrollTop > 3850;
+        } else {
+          // For devices with width less than 768 pixels
+          shouldFloat = scrollTop > 5000;
+        }
+    
+        setIsFloating(shouldFloat);
+      };
+
+    // to handle floating in 
+    useEffect(() => {
+        window.addEventListener('scroll', handleScroll)
+        return () => {
+            window.removeEventListener('scroll', handleScroll)
+        }
+    }, [])
+    
+
     return (
-        <div className='flex flex-col justify-center items-center mt-[4rem] md:mt-[8rem] w-full'>
+        <div  className={`flex flex-col justify-center items-center mt-[4rem] md:mt-[8rem] w-full relative ${stylesFloat.floatingComponent} ${isFloating ? stylesFloat.floating : ''}`}>
             
             <h1 className=' text-[#64FFDA] font-semibold text-xl md:text-3xl'>get in touch!</h1>
             <p className='text-center w-4/5 md:w-2/3 mt-4' >I can help you with any questions or issues related to the website development or malfunctionings and any tech problems you may have. I have extensive experience and knowledge in technology and I’m happy to share it with you.</p>

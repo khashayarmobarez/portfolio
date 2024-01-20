@@ -1,14 +1,42 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
+import stylesFloat from '../FloatStyles/FloatRight.module.css';
 
 import triangle from '../../media/SVG/triangle.svg'
 import myPic from '../../media/Pics/portfolio-photo.jpg'
 
 
 const About = () => {
+
+    // to handle floating in 
+    const [isFloating, setIsFloating] = useState(false)
+
+    // to handle floating in 
+    const handleScroll = () => {
+        const scrollTop = window.scrollY;
+        let shouldFloat = false;
+    
+        if (window.innerWidth >= 768) {
+          // For devices with width more than 768px
+          shouldFloat = scrollTop > 300;
+        } else {
+          // For devices with width less than 768 pixels
+          shouldFloat = scrollTop > 350;
+        }
+    
+        setIsFloating(shouldFloat);
+      };
+
+    // to handle floating in 
+    useEffect(() => {
+        window.addEventListener('scroll', handleScroll)
+        return () => {
+            window.removeEventListener('scroll', handleScroll)
+        }
+    }, [])
     
 
     return (
-        <div className='w-full flex flex-col mt-[14vh] relative'>
+        <div className={`w-full flex flex-col mt-[14vh] relative ${stylesFloat.floatingComponent} ${isFloating ? stylesFloat.floating : ''}`}>
 
             <div id='container' className='flex justify-center items-center w-full flex-col' >
 

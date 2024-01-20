@@ -1,0 +1,10 @@
+.floatingComponent {
+    transition: transform 0.8s ease-out,opacity 1.5s ease-in;
+    right:100vw;
+    opacity: 0; 
+  }
+
+  .floatingComponent.floating {
+    transform: translateX(100vw); 
+    opacity: 1;
+  }

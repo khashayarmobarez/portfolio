@@ -1,5 +1,6 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import styles from './Work.module.css'
+import stylesFloat from '../FloatStyles/FloatLeft.module.css'
 
 import docWebsite from '../../media/Pics/drbabakzandi-website.png'
 import blogPage from '../../media/Pics/Web-capture-mobarez-blog.jpeg'
@@ -7,9 +8,36 @@ import ProjectsCards from '../Reusable components/ProjectsCards';
 
 const Work = () => {
 
+    // to handle floating in 
+    const [isFloating, setIsFloating] = useState(false)
+
+    // to handle floating in 
+    const handleScroll = () => {
+        const scrollTop = window.scrollY;
+        let shouldFloat = false;
+    
+        if (window.innerWidth >= 768) {
+          // For devices with width more than 768px
+          shouldFloat = scrollTop > 1150;
+        } else {
+          // For devices with width less than 768 pixels
+          shouldFloat = scrollTop > 1950;
+        }
+    
+        setIsFloating(shouldFloat);
+      };
+
+    // to handle floating in 
+    useEffect(() => {
+        window.addEventListener('scroll', handleScroll)
+        return () => {
+            window.removeEventListener('scroll', handleScroll)
+        }
+    }, [])
+
 
     return (
-        <div className='w-full flex flex-col mt-[14vh] relative'>
+        <div className={`w-full flex flex-col mt-[14vh] relative ${stylesFloat.floatingComponent} ${isFloating ? stylesFloat.floating : ''}`}>
 
             <div id='container' className='flex justify-center items-center w-full flex-col' >
 

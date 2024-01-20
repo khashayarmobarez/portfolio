@@ -3,7 +3,7 @@ import styles from './Articles.module.css'
 
 const Articles = () => {
     return (
-        <div className='w-full flex flex-col justify-center items-center mt-40 text-[#64FFDA]' >
+        <div className='w-full flex flex-col justify-center items-center mt-40 text-[#64FFDA] relative' >
             <h1 className='text-center text-3xl w-2/3'>Articles will be added soon!</h1>
 
             {/* Animation loading and monalisa */}
