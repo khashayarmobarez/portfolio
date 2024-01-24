@@ -4,7 +4,7 @@ import { Link } from 'react-scroll';
 import 'animate.css'
 
 import logo from '../../media/SVG/K-logo.svg'
-import myPicture from '../../media/Pics/portfolio-photo.jpg'
+import myPicture from '../../media/Pics/portfolio-photo.jpeg'
 
 
 const Navbar = () => {

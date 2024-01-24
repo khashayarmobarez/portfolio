@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import stylesFloat from '../FloatStyles/FloatRight.module.css';
 
 import triangle from '../../media/SVG/triangle.svg'
-import myPic from '../../media/Pics/portfolio-photo.jpg'
+import myPic from '../../media/Pics/portfolio-photo.jpeg'
 
 
 const About = () => {
