@@ -10,7 +10,7 @@ const ProjectsCards = (props) => {
             <div className={styles.card}>
                 <a  href={webLink} target="_blank" rel="noopener noreferrer" >
                     <div className={styles.card2}>
-                        <h1 className=' text-xl font-extrabold'>{projectName}</h1>
+                        <h1 className=' text-xl font-extrabold text-center'>{projectName}</h1>
                         <h3 className=' text-base'>{technology}</h3>
                         <p className=' text-sm text-center'>{description}</p>
                     </div>
