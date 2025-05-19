@@ -1,12 +1,12 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.a06a4abe.css",
-    "main.js": "/portfolio/static/js/main.d43d0d62.js",
-    "static/media/drbabakzandi-website.png": "/portfolio/static/media/drbabakzandi-website.38c1bd058fea7bffdba4.png",
+    "main.js": "/portfolio/static/js/main.fefb7fb0.js",
+    "static/media/digilogbook.png": "/portfolio/static/media/digilogbook.79b97eafababc0516f75.png",
     "static/media/www.freecodecamp.org_certification_khashayar-mobarez_js_algorithms.png": "/portfolio/static/media/www.freecodecamp.org_certification_khashayar-mobarez_js_algorithms.9ce5159f7bbd917e96ea.png",
     "static/media/freecodecamp.org_certification_khashayar-mobarez_responsive-web-design.png": "/portfolio/static/media/freecodecamp.org_certification_khashayar-mobarez_responsive-web-design.cb3cdfbeedb0702c9f0a.png",
     "static/media/portfolio-photo.jpeg": "/portfolio/static/media/portfolio-photo.feff6ff301828b2874b3.jpeg",
-    "static/media/Web-capture-mobarez-blog.jpeg": "/portfolio/static/media/Web-capture-mobarez-blog.b4f5f44cd13e5f018ef2.jpeg",
+    "static/media/mobarrez.png": "/portfolio/static/media/mobarrez.3e8f8a02bc751f9ee236.png",
     "static/media/Discord.svg": "/portfolio/static/media/Discord.94713abc2da0bcb901eb1e24b83b503f.svg",
     "static/media/Instagram.svg": "/portfolio/static/media/Instagram.6a6ad507f5f4339e37fc5b35941ff324.svg",
     "static/media/LinkedIn.svg": "/portfolio/static/media/LinkedIn.ddd029b004ab0673cc4e4a27216e56ea.svg",
@@ -15,10 +15,10 @@
     "static/media/K-logo.svg": "/portfolio/static/media/K-logo.169b825bec014155b52f529b4bfa2dcc.svg",
     "static/media/triangle.svg": "/portfolio/static/media/triangle.06eb79504db1d785e42d89d36035c01a.svg",
     "main.a06a4abe.css.map": "/portfolio/static/css/main.a06a4abe.css.map",
-    "main.d43d0d62.js.map": "/portfolio/static/js/main.d43d0d62.js.map"
+    "main.fefb7fb0.js.map": "/portfolio/static/js/main.fefb7fb0.js.map"
   },
   "entrypoints": [
     "static/css/main.a06a4abe.css",
-    "static/js/main.d43d0d62.js"
+    "static/js/main.fefb7fb0.js"
   ]
 }
