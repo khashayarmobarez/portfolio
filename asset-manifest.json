@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.a06a4abe.css",
-    "main.js": "/portfolio/static/js/main.fefb7fb0.js",
+    "main.js": "/portfolio/static/js/main.7850d0fa.js",
     "static/media/digilogbook.png": "/portfolio/static/media/digilogbook.79b97eafababc0516f75.png",
     "static/media/www.freecodecamp.org_certification_khashayar-mobarez_js_algorithms.png": "/portfolio/static/media/www.freecodecamp.org_certification_khashayar-mobarez_js_algorithms.9ce5159f7bbd917e96ea.png",
     "static/media/freecodecamp.org_certification_khashayar-mobarez_responsive-web-design.png": "/portfolio/static/media/freecodecamp.org_certification_khashayar-mobarez_responsive-web-design.cb3cdfbeedb0702c9f0a.png",
@@ -15,10 +15,10 @@
     "static/media/K-logo.svg": "/portfolio/static/media/K-logo.169b825bec014155b52f529b4bfa2dcc.svg",
     "static/media/triangle.svg": "/portfolio/static/media/triangle.06eb79504db1d785e42d89d36035c01a.svg",
     "main.a06a4abe.css.map": "/portfolio/static/css/main.a06a4abe.css.map",
-    "main.fefb7fb0.js.map": "/portfolio/static/js/main.fefb7fb0.js.map"
+    "main.7850d0fa.js.map": "/portfolio/static/js/main.7850d0fa.js.map"
   },
   "entrypoints": [
     "static/css/main.a06a4abe.css",
-    "static/js/main.fefb7fb0.js"
+    "static/js/main.7850d0fa.js"
   ]
 }
